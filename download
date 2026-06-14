@@ -1,0 +1,6 @@
+import { OrderStatus } from '../Status';
+
+export interface GetOrdersDto {
+  status?: OrderStatus;
+  customerId?: string;
+}
